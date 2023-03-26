@@ -59,3 +59,11 @@ function countDigits(num) {
 }
 const output= evenDigits2([12,345,2,6,7896])
 console.log(output)
+
+// 3rd Approach
+
+function countDigits2(num){
+  return Math.floor(Math.log10(num)) + 1
+}
+
+console.log(countDigits2(898989))
