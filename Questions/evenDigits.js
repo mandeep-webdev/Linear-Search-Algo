@@ -41,6 +41,15 @@ function evenDigits2(nums) {
 }
 
 function countDigits(num) {
+  // if there is a negative number
+  if(num < 0) {
+    num = num * -1
+  }
+  // if there is only one number
+  if(num === 0) {
+    return 1
+  }
+  
   let count = 0
   while(num > 0) {
     count ++
