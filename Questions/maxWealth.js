@@ -16,7 +16,7 @@ function maximumWealth(accounts) {
   return maxWealth
 }
 
-// 2nd solution
+// 2nd Approach
 function maximumWealth2(accounts) {
   let maxWealth = 0
     for(const person of accounts){
